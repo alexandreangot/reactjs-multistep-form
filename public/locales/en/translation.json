@@ -1,0 +1,64 @@
+{
+  "multi_step_form": {
+    "title": "Multi-Step Form",
+    "navigation": {
+      "personal_info": "Personal Info",
+      "billing_info": "Billing Info",
+      "account_info": "Confirmation"
+    },
+    "field": {
+      "name": "Name",
+      "subDomain": "Sub-Domain",
+      "nb_users": "Number of Users",
+      "billing_mail": "Billing Email",
+      "billing_address": "Billing Address",
+      "username": "Username",
+      "password": "Password"
+    },
+    "tooltip": {
+      "subDomain": {
+        "1": "Sub-domain is the name of your platform.",
+        "2": "Ex: sub-domain.alexandre.com"
+      }
+    },
+    "error": {
+      "name": {
+        "min": "Name must be at least {{limit}} characters long",
+        "required": "Name is required"
+      },
+      "subDomain": {
+        "min": "Sub-domain must be at least {{limit}} characters long",
+        "required": "Sub-domain is required"
+      },
+      "nb_users": {
+        "typeError": "Number of users must be a number",
+        "positive": "Number of users must be a positive number",
+        "required": "Number of users is required"
+      },
+      "billing_mail": {
+        "email": "Billing email must be a valid email",
+        "required": "Billing email is required"
+      },
+      "billing_address": {
+        "min": "Billing address must be at least {{limit}} characters long",
+        "required": "Billing address is required"
+      },
+      "username": {
+        "min": "Username must be at least {{limit}} characters long",
+        "required": "Username is required"
+      },
+      "password": {
+        "min": "Password must be at least {{limit}} characters long",
+        "required": "Password is required",
+        "uppercase": "Password must contain at least one uppercase letter",
+        "lowercase": "Password must contain at least one lowercase letter",
+        "number": "Password must contain at least one number",
+        "special": "Password must contain at least one special character"
+      }
+    }
+  },
+
+  "next": "Next",
+  "previous": "Previous",
+  "finish": "Finish"
+}

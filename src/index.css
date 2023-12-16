@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form {
+  @apply flex flex-col items-center space-y-2;
+}
+
+.field {
+  @apply flex w-80 flex-col space-y-2;
+}
+
+.field label {
+  @apply flex items-center space-x-2 text-sm font-medium text-gray-900;
+}
+
+.field input[type="text"],
+.field input[type="password"],
+.field input[type="email"],
+.field input[type="number"] {
+  @apply block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500;
+}
+
+h2 {
+  @apply py-10 text-center text-5xl font-bold text-gray-500;
+}
+
+.error-field {
+  @apply text-sm italic text-red-500;
+}
+
+button {
+  @apply rounded-lg px-4 py-2 text-sm font-medium focus:outline-none focus:ring-4 border border-gray-300 bg-white text-gray-700 hover:bg-gray-50 hover:shadow-sm focus:ring-gray-300;
+}
+
+.button-blue {
+  @apply bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-300 border-0;
+}

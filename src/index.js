@@ -1,0 +1,13 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { MultiStepForm } from "./page/multi_step_form/MultiStepForm";
+import "./i18n";
+import "react-tooltip/dist/react-tooltip.css";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <MultiStepForm />
+  </React.StrictMode>,
+);
